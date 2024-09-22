@@ -3,14 +3,17 @@ main = "src/workers.ts"
 compatibility_date = "2023-08-01"
 
 kv_namespaces = [
-  { binding = "KV", id = "0b9abda82acf461c8d4ecda656217e20", preview_id = "b43c22430b5240dea89cd6cc350d3946" }
+  { binding = "KV", id = "4ad3b1178fb849e1a4c2b431bcda6678", preview_id = "e23db1fceb7646069ec79c5e72b0666f" }
 ]
 
 [triggers]
 crons = ["0 */1 * * *"]
 
 [vars]
-DISCORD_CLIENT_ID="YOUR_CLIENT_ID"
-REDIRECT_URL="https://YOURNAME.cloudflareaccess.com/cdn-cgi/access/callback"
-SERVERS_ROLE_CLAIMS=["YOUR_SERVER_ID"]
+DISCORD_CLIENT_ID="1286283350717370378"
+REDIRECT_URL="https://wakttu.cloudflareaccess.com/cdn-cgi/access/callback"
+SERVERS_ROLE_CLAIMS=[
+  "1224288512627707924",
+  "1249662854140006540"
+]
 CACHE_ROLES=true
